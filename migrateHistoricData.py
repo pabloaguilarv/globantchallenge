@@ -14,7 +14,7 @@ db_config = {
     "host": "challenge-challenge-globant-3b2c.k.aivencloud.com",
     "dbname": "challenge",
     "user": "avnadmin",
-    "password": "AVNS_9V67I1GWUPLcMF93Bhh",
+    "password": os.environ.get('password'),
     "port": "25318"
 }
 
